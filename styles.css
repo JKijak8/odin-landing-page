@@ -15,7 +15,7 @@ header,
 header {
   align-items: center;
   padding-top: 12px;
-  gap: 10px;
+  gap: 70px;
 }
 
 .logo,
@@ -39,7 +39,7 @@ header {
 .header-links {
   display: flex;
   margin: 0px 0px 0px auto;
-  gap: 20px;
+  gap: 15px;
   list-style-type: none;
   padding: 0px;
 }
