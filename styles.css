@@ -123,16 +123,17 @@ header {
   font-weight: lighter;
 }
 
-.quote,
-.author {
-  margin: 0px;
-  padding-left: 400px;
-  padding-right: 400px;
+.quote-container {
   background-color: #e5e7eb;
 }
 
+.quote-container .text {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 150px 3em 150px 3em;
+}
+
 .quote {
-  padding-top: 150px;
   font-size: 36px;
   font-style: italic;
   text-align: left;
@@ -141,7 +142,6 @@ header {
 
 .author {
   text-align: right;
-  padding-bottom: 150px;
   font-size: 30px;
   font-weight: 900;
 }
