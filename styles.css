@@ -80,11 +80,17 @@ header {
   background-color: #3882f6;
 }
 
+.cards-title,
+.card .text,
+.quote,
+.author {
+  color: #1f2937;
+}
+
 .cards-title {
   margin: 45px 0px;
   font-size: 36px;
   font-weight: 900;
-  color: #1f2937;
   text-align: center;
 }
 
@@ -113,26 +119,29 @@ header {
 .card .text {
   padding: 8px;
   font-size: 18px;
-  color: #1f2937;
   text-align: center;
   font-weight: lighter;
 }
 
+.quote,
+.author {
+  margin: 0px;
+  padding-left: 400px;
+  padding-right: 400px;
+  background-color: #e5e7eb;
+}
+
 .quote {
-  margin: 0;
-  padding: 100px 200px 0px 200px;
+  padding-top: 150px;
   font-size: 36px;
   font-style: italic;
-  color: #1f2937;
   text-align: left;
   font-weight: lighter;
-  background-color: #e5e7eb;
 }
 
 .author {
   text-align: right;
-  padding: 0px 200px 100px 200px;
+  padding-bottom: 150px;
   font-size: 30px;
   font-weight: 900;
-  background-color: #e5e7eb;
 }
