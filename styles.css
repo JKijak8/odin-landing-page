@@ -164,10 +164,11 @@ header {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
-  margin: 100px 250px;
   background-color: #3882f6;
   padding: 50px 80px;
   border-radius: 10px;
+  max-width: 55%;
+  margin: 100px auto;
 }
 
 .call h3 {
