@@ -18,7 +18,7 @@ header,
   margin: 0 auto;
 }
 
-@media (max-width: 90em) {
+@media (max-width: 81em) {
   .hero {
     justify-content: center;
   }
@@ -30,7 +30,7 @@ header {
   gap: 40px;
 }
 
-@media (max-width: 47.3em) {
+@media (max-width: 49em) {
   header {
     justify-content: center;
   }
