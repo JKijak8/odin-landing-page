@@ -18,6 +18,12 @@ header,
   margin: 0 auto;
 }
 
+@media (max-width: 90em) {
+  .hero {
+    justify-content: center;
+  }
+}
+
 header {
   align-items: center;
   padding-top: 12px;
@@ -64,21 +70,7 @@ header {
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
   width: 500px;
-}
-
-@media (max-width: 79.69em) {
-  .hero {
-    justify-content: center;
-  }
-
-  .hero-text {
-    align-items: center;
-    text-align: center;
-  }
 }
 
 .photo {
