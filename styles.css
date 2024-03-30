@@ -14,7 +14,7 @@ header,
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@ header {
   gap: 40px;
 }
 
-@media (max-width: 64em) {
+@media (max-width: 47.3em) {
   header {
     justify-content: center;
   }
@@ -70,7 +70,7 @@ header {
   width: 500px;
 }
 
-@media (max-width: 90em) {
+@media (max-width: 79.69em) {
   .hero {
     justify-content: center;
   }
