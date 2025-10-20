@@ -186,3 +186,12 @@ ul {
   font-size: 18px;
   border: solid 3px #f9faf8;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 300;
+}
