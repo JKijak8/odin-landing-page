@@ -88,3 +88,44 @@ ul {
   background-color: #6d747d;
   flex: none;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 350px;
+  gap: 50px;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  align-self: center;
+}
+
+.information-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap: 16px;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  border: solid 5px #3882f6;
+  border-radius: 20px;
+  flex: none;
+}
+
+.information-subtext {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: center;
+}
