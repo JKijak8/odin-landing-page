@@ -129,3 +129,26 @@ ul {
   color: #1f2937;
   text-align: center;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 120px 450px;
+}
+
+.quote-text,
+.author {
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 900;
+}
